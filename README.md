@@ -1,11 +1,25 @@
 # base16-termux
-[Base16](https://github.com/chriskempson/base16) for the [Termux](https://github.com/termux/) terminal emulator app for Android.
 
-# Installation
-Simply your desired color scheme into your Termux environment as `~/.termux/colors.properties`. If there is no `.termux`, create it with `mkdir .termux`.
+A set of [Base16](https://github.com/chriskempson/base16) scheme templates for
+the [Termux](https://github.com/termux/) terminal emulator app for Android. These
+templates can be used with any compliant Base16 builder. **Pre-built** schemes
+are also available in the [`colors`](https://github.com/kdrag0n/base16-termux/tree/master/colors)
+directory of this repository for convenience.
 
-# `256` Variants
+## Installation
 
-The 256 variants are for those who wish to continue using the 16 ANSI colors but don't want to end up with weird-looking colors instead of bright ones. Because base16 schemes have 16 colors only, the bright colors mirror their non-bright variants instead of being unique colors.
+Simply move the built color scheme to `~/.termux/colors.properties` within the
+Termux environment. Replace the existing file if necessary.
 
-### TL;DR if some colors look weird, darker than normal, or incorrect, try the `256` variant.
+You will need to either restart Termux or run the `termux-reload-settings`
+command for the change to take effect.
+
+## 256-color variants
+
+The 256-color variants are for those who wish to use the 16 ANSI colors while
+retaining accuracy for bright color variants. This is achieved by making the
+bright variants mirror their regular counterparts instead of attempting to map
+them to other Base16 colors.
+
+**TL;DR**: If some colors look strange or darker than normal, try the
+256-color variant of your scheme of choice.
