@@ -6,6 +6,10 @@ templates can be used with any compliant Base16 builder. **Pre-built** schemes
 are also available in the [`colors`](https://github.com/kdrag0n/base16-termux/tree/master/colors)
 directory of this repository for convenience.
 
+## [More themes](https://hueflake.dev/?utm_source=gh-base16-termux)
+
+[**Check out Hueflake for high-quality, infinitely customizable Termux themes**](https://hueflake.dev/?utm_source=gh-base16-termux)
+
 ## Installation
 
 Simply move the built color scheme to `~/.termux/colors.properties` within the
